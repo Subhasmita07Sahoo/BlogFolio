@@ -1,0 +1,6 @@
+# Enforce LF endings for all text files
+* text=auto eol=lf
+
+# Ignore node_modules and dist folders
+common/node_modules/* binary
+common/dist/* binary
